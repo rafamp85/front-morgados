@@ -1,7 +1,7 @@
 
 var notifActivated = false;
- const URI = 'http://localhost:3000';
-// const URI = 'http://187.210.10.200:3000';
+// const URI = 'http://localhost:3000';
+ const URI = 'http://187.210.10.200:3000';
 var swLocation = '/sw.js';
 
 var swReg;
@@ -56,7 +56,6 @@ function setActiveNotif( value ) {
 
 
 function validateActiveNotif( ) {
-    alert( notifActivated );
     return notifActivated;
 }
 
